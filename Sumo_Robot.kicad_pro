@@ -382,6 +382,47 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "f283bc71-7763-4093-b75c-cbe2f5868c12",
+      "Root"
+    ],
+    [
+      "4425b7fb-6f26-4a13-b5c2-41b1a59df573",
+      "PowerSource"
+    ],
+    [
+      "d917ac91-02c1-43ff-90e8-81f3e34e564a",
+      "RangeSensors"
+    ],
+    [
+      "c0f33207-9995-4f2a-ae00-c92efedb65e6",
+      "LineSensors"
+    ],
+    [
+      "411157fa-1b9b-4833-94db-a0992fa5119f",
+      "InfraredReceiver"
+    ],
+    [
+      "f1956493-43e6-4247-bc8c-3efab023d950",
+      "Right Motor"
+    ],
+    [
+      "b92a7e92-a2a7-4561-bf8a-326ace0b674a",
+      "LeftMotor"
+    ],
+    [
+      "9428f158-f7fc-4e4a-b97b-e16df299d57c",
+      "Microcontroller"
+    ],
+    [
+      "5f4825f5-0fc6-44af-b946-046b6cfed166",
+      "Pins"
+    ],
+    [
+      "385d545c-a594-46c7-8442-a965f8696594",
+      "Mechanical"
+    ]
+  ],
   "text_variables": {}
 }

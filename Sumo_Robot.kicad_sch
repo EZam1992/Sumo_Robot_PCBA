@@ -1,13 +1,17 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "f283bc71-7763-4093-b75c-cbe2f5868c12")
 	(paper "A4")
 	(lib_symbols)
 	(sheet
 		(at 39.37 154.94)
 		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -45,8 +49,12 @@
 		)
 	)
 	(sheet
-		(at 222.25 31.75)
+		(at 223.52 27.94)
 		(size 24.13 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -58,7 +66,7 @@
 		)
 		(uuid "411157fa-1b9b-4833-94db-a0992fa5119f")
 		(property "Sheetname" "InfraredReceiver"
-			(at 222.25 31.0384 0)
+			(at 223.52 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67,7 +75,7 @@
 			)
 		)
 		(property "Sheetfile" "receiver.kicad_sch"
-			(at 222.25 50.1146 0)
+			(at 223.52 46.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,6 +94,10 @@
 	(sheet
 		(at 34.29 31.75)
 		(size 24.13 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -123,8 +135,12 @@
 		)
 	)
 	(sheet
-		(at 127 25.4)
+		(at 87.63 156.21)
 		(size 17.78 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -136,7 +152,7 @@
 		)
 		(uuid "5f4825f5-0fc6-44af-b946-046b6cfed166")
 		(property "Sheetname" "Pins"
-			(at 127 24.6884 0)
+			(at 87.63 155.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -145,7 +161,7 @@
 			)
 		)
 		(property "Sheetfile" "pins.kicad_sch"
-			(at 127 41.2246 0)
+			(at 87.63 172.0346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164,6 +180,10 @@
 	(sheet
 		(at 123.19 68.58)
 		(size 36.83 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -203,6 +223,10 @@
 	(sheet
 		(at 227.33 93.98)
 		(size 26.67 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -242,6 +266,10 @@
 	(sheet
 		(at 38.1 101.6)
 		(size 26.67 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -281,6 +309,10 @@
 	(sheet
 		(at 35.56 68.58)
 		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -320,6 +352,10 @@
 	(sheet
 		(at 223.52 59.69)
 		(size 26.67 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -361,4 +397,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

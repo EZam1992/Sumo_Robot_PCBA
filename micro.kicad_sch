@@ -4,5 +4,719 @@
 	(generator_version "9.0")
 	(uuid "349a8e82-f837-4b4e-9d85-d3a9295e0f8f")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "sumo-robot-symbols:MSP430G2553IPW28"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 21.59 39.116 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MSP430G2553IPW28_1_1"
+				(rectangle
+					(start 0 38.1)
+					(end 41.91 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(pin input line
+					(at -2.54 35.56 0)
+					(length 2.54)
+					(name "DVCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 33.02 0)
+					(length 2.54)
+					(name "P1.0/CA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 30.48 0)
+					(length 2.54)
+					(name "P1.1/CA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 27.94 0)
+					(length 2.54)
+					(name "P1.2/CA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 25.4 0)
+					(length 2.54)
+					(name "P1.3/CA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 22.86 0)
+					(length 2.54)
+					(name "P1.4/TCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 20.32 0)
+					(length 2.54)
+					(name "P1.5/TMS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 17.78 0)
+					(length 2.54)
+					(name "P3.1/TA1.0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 15.24 0)
+					(length 2.54)
+					(name "P3.0/TA0.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 12.7 0)
+					(length 2.54)
+					(name "P2.0/TA1.0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 10.16 0)
+					(length 2.54)
+					(name "P2.1/TA1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name "P2.2/TA1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name "P3.2/TA1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "P3.3/TA1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 35.56 180)
+					(length 2.54)
+					(name "DVSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 33.02 180)
+					(length 2.54)
+					(name "XIN/P2.6/TA0.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 30.48 180)
+					(length 2.54)
+					(name "XOUT/P2.7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 27.94 180)
+					(length 2.54)
+					(name "TEST/SBWTCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 25.4 180)
+					(length 2.54)
+					(name "~{RST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 22.86 180)
+					(length 2.54)
+					(name "P1.7/TDO/TDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 20.32 180)
+					(length 2.54)
+					(name "P1.6/TA0.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 17.78 180)
+					(length 2.54)
+					(name "P3.7/CAOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 15.24 180)
+					(length 2.54)
+					(name "P3.6/TA0.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 12.7 180)
+					(length 2.54)
+					(name "P3.5/TA0.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 10.16 180)
+					(length 2.54)
+					(name "P2.5/TA1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 7.62 180)
+					(length 2.54)
+					(name "P2.4/TA1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 5.08 180)
+					(length 2.54)
+					(name "P2.3/TA1.0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 2.54 180)
+					(length 2.54)
+					(name "P3.4/TA0.0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "sumo-robot-symbols:MSP430G2553IPW28")
+		(at 137.16 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d238e30c-3c86-41bf-bedd-dd4d99e267b8")
+		(property "Reference" "U1"
+			(at 158.115 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 158.115 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "bd06975f-ec27-4842-9ab8-01e3e931f82a")
+		)
+		(pin "8"
+			(uuid "afcabd91-0c48-4f37-86c1-9d924ba03e9d")
+		)
+		(pin "3"
+			(uuid "e0a9b34e-37d7-4037-983b-05e936217a07")
+		)
+		(pin "1"
+			(uuid "9f49c615-40f6-44ee-9cb1-06bfb3081ccc")
+		)
+		(pin "7"
+			(uuid "b242b83b-f71a-4094-83e8-b1b26500d26f")
+		)
+		(pin "20"
+			(uuid "de6c7d4c-eb9f-4319-9c8b-46db9edc83c4")
+		)
+		(pin "16"
+			(uuid "6e927043-ee01-416a-82a5-c0e38591b598")
+		)
+		(pin "4"
+			(uuid "61a3abb9-b79c-4b1b-b2bb-aff905eb0d7d")
+		)
+		(pin "26"
+			(uuid "0ee2dfcc-3d70-4a23-a6ee-42a1624d6156")
+		)
+		(pin "14"
+			(uuid "824bb257-2c41-4161-8426-caa964805521")
+		)
+		(pin "9"
+			(uuid "9e775870-dfef-43ae-9ffe-697c69635c03")
+		)
+		(pin "25"
+			(uuid "e901e937-fbcd-494c-92e4-b4cc3d23da4d")
+		)
+		(pin "24"
+			(uuid "b5b6ddf9-0b41-44c8-822b-a685f2cd8fca")
+		)
+		(pin "12"
+			(uuid "6be54ad5-a691-4bf5-a016-ed987184385f")
+		)
+		(pin "2"
+			(uuid "e842b62c-54b9-4fa5-bd57-020a2c715bc6")
+		)
+		(pin "6"
+			(uuid "2b236042-138e-4ab6-9def-eac7598aa3c5")
+		)
+		(pin "13"
+			(uuid "d650b259-1fc9-47dc-9ee9-5caaad4aa7b7")
+		)
+		(pin "28"
+			(uuid "1ead065a-d5e9-458b-ac41-07081d138203")
+		)
+		(pin "27"
+			(uuid "34b6016b-985b-4297-86b4-421af8fc4cde")
+		)
+		(pin "22"
+			(uuid "f040b3b6-3801-4a1d-a2f0-8aaf253842b2")
+		)
+		(pin "19"
+			(uuid "2f38c138-3be2-4b0d-b9a8-b0866597ce29")
+		)
+		(pin "18"
+			(uuid "48114f4e-0297-4925-99dc-f8bf8d29fadd")
+		)
+		(pin "17"
+			(uuid "a0e2ede4-f3a2-4938-93d9-25b2f750b45c")
+		)
+		(pin "23"
+			(uuid "98fc99ba-b21b-429b-8743-34d007a0a6c3")
+		)
+		(pin "21"
+			(uuid "8e4dee62-1d54-4913-9c6c-88018edd0cf6")
+		)
+		(pin "11"
+			(uuid "e981e67f-d790-41dd-b846-cf4579d048d9")
+		)
+		(pin "10"
+			(uuid "ba6908f1-c536-4cbe-b1d9-0cd706877796")
+		)
+		(pin "15"
+			(uuid "4be714e5-cb9b-4ee5-bb55-727d172f7d16")
+		)
+		(instances
+			(project ""
+				(path "/f283bc71-7763-4093-b75c-cbe2f5868c12/9428f158-f7fc-4e4a-b97b-e16df299d57c"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

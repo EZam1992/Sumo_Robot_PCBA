@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 39.37 154.94)
+		(at 35.56 176.53)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23,7 +23,7 @@
 		)
 		(uuid "385d545c-a594-46c7-8442-a965f8696594")
 		(property "Sheetname" "Mechanical"
-			(at 39.37 154.2284 0)
+			(at 35.56 175.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Sheetfile" "mechanical.kicad_sch"
-			(at 39.37 170.7646 0)
+			(at 35.56 192.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,7 +49,7 @@
 		)
 	)
 	(sheet
-		(at 223.52 27.94)
+		(at 38.1 137.16)
 		(size 24.13 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -66,7 +66,7 @@
 		)
 		(uuid "411157fa-1b9b-4833-94db-a0992fa5119f")
 		(property "Sheetname" "InfraredReceiver"
-			(at 223.52 27.2284 0)
+			(at 38.1 136.4484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -75,7 +75,7 @@
 			)
 		)
 		(property "Sheetfile" "receiver.kicad_sch"
-			(at 223.52 46.3046 0)
+			(at 38.1 155.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -307,7 +307,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 68.58)
+		(at 33.02 60.96)
 		(size 27.94 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -324,7 +324,7 @@
 		)
 		(uuid "d917ac91-02c1-43ff-90e8-81f3e34e564a")
 		(property "Sheetname" "RangeSensors"
-			(at 35.56 67.8684 0)
+			(at 33.02 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -333,12 +333,32 @@
 			)
 		)
 		(property "Sheetfile" "range.kicad_sch"
-			(at 35.56 89.4846 0)
+			(at 33.02 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 60.96 67.31 0)
+			(uuid "1b84103b-1b8e-4dd6-9b73-9a7acfd674b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 60.96 73.66 0)
+			(uuid "05ea49ec-af07-4592-b51b-c84eb835c6c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

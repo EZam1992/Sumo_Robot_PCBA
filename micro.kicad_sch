@@ -10,7 +10,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 21.59 39.116 0)
+				(at 1.016 39.116 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -63,6 +63,14 @@
 					(fill
 						(type color)
 						(color 255 255 194 1)
+					)
+				)
+				(text "MSP430G2553IPW28"
+					(at 21.844 39.37 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 				(pin input line
@@ -573,10 +581,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "There would be some flags coming from the pins to indicate that sensors are active "
+	(text_box "There would be some flags coming from the pins to indicate that range sensors are active ; need to understand where the pullup is for the i2c lines "
 		(exclude_from_sim no)
 		(at 96.52 40.64 0)
-		(size 19.05 17.78)
+		(size 22.86 21.59)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -593,17 +601,59 @@
 		)
 		(uuid "4a6f259e-1e87-4c82-bc9d-0cf71e1d9f08")
 	)
+	(wire
+		(pts
+			(xy 193.04 72.39) (xy 201.93 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635c1ffe-8c53-40df-a694-4f531f7b25fe")
+	)
+	(wire
+		(pts
+			(xy 193.04 69.85) (xy 201.93 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1432d5e-3874-4db4-bdba-efbe7a775cdb")
+	)
+	(hierarchical_label "SCL"
+		(shape output)
+		(at 201.93 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42df4c9e-bc82-4708-8f3a-342793685cc3")
+	)
+	(hierarchical_label "SDA"
+		(shape output)
+		(at 201.93 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "616d5a48-b863-46c4-b375-a6e90ce13cd5")
+	)
 	(symbol
 		(lib_id "sumo-robot-symbols:MSP430G2553IPW28")
-		(at 137.16 102.87 0)
+		(at 148.59 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d238e30c-3c86-41bf-bedd-dd4d99e267b8")
+		(uuid "14a1fce0-21b0-478e-ac4b-cd84e0538305")
 		(property "Reference" "U1"
-			(at 157.988 63.246 0)
+			(at 150.114 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -611,7 +661,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 158.115 63.5 0)
+			(at 169.545 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -619,7 +669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 102.87 0)
+			(at 148.59 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -628,7 +678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 102.87 0)
+			(at 148.59 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -637,7 +687,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 102.87 0)
+			(at 148.59 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -645,89 +695,89 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
-			(uuid "bd06975f-ec27-4842-9ab8-01e3e931f82a")
-		)
-		(pin "8"
-			(uuid "afcabd91-0c48-4f37-86c1-9d924ba03e9d")
-		)
-		(pin "3"
-			(uuid "e0a9b34e-37d7-4037-983b-05e936217a07")
-		)
 		(pin "1"
-			(uuid "9f49c615-40f6-44ee-9cb1-06bfb3081ccc")
-		)
-		(pin "7"
-			(uuid "b242b83b-f71a-4094-83e8-b1b26500d26f")
-		)
-		(pin "20"
-			(uuid "de6c7d4c-eb9f-4319-9c8b-46db9edc83c4")
-		)
-		(pin "16"
-			(uuid "6e927043-ee01-416a-82a5-c0e38591b598")
-		)
-		(pin "4"
-			(uuid "61a3abb9-b79c-4b1b-b2bb-aff905eb0d7d")
-		)
-		(pin "26"
-			(uuid "0ee2dfcc-3d70-4a23-a6ee-42a1624d6156")
-		)
-		(pin "14"
-			(uuid "824bb257-2c41-4161-8426-caa964805521")
-		)
-		(pin "9"
-			(uuid "9e775870-dfef-43ae-9ffe-697c69635c03")
-		)
-		(pin "25"
-			(uuid "e901e937-fbcd-494c-92e4-b4cc3d23da4d")
+			(uuid "7da5da9e-4815-47ad-b47b-7d80aa8f8ebd")
 		)
 		(pin "24"
-			(uuid "b5b6ddf9-0b41-44c8-822b-a685f2cd8fca")
+			(uuid "e99bd327-6c5f-44b3-8799-7be938d09e7f")
 		)
-		(pin "12"
-			(uuid "6be54ad5-a691-4bf5-a016-ed987184385f")
-		)
-		(pin "2"
-			(uuid "e842b62c-54b9-4fa5-bd57-020a2c715bc6")
+		(pin "14"
+			(uuid "aef65fb2-941a-4197-bd5e-6921358ff2c2")
 		)
 		(pin "6"
-			(uuid "2b236042-138e-4ab6-9def-eac7598aa3c5")
-		)
-		(pin "13"
-			(uuid "d650b259-1fc9-47dc-9ee9-5caaad4aa7b7")
-		)
-		(pin "28"
-			(uuid "1ead065a-d5e9-458b-ac41-07081d138203")
-		)
-		(pin "27"
-			(uuid "34b6016b-985b-4297-86b4-421af8fc4cde")
-		)
-		(pin "22"
-			(uuid "f040b3b6-3801-4a1d-a2f0-8aaf253842b2")
-		)
-		(pin "19"
-			(uuid "2f38c138-3be2-4b0d-b9a8-b0866597ce29")
+			(uuid "d9967d21-07e4-4ebe-90cf-863f161e1ea9")
 		)
 		(pin "18"
-			(uuid "48114f4e-0297-4925-99dc-f8bf8d29fadd")
+			(uuid "56ede943-605d-4020-ae90-f431aceb1c13")
 		)
-		(pin "17"
-			(uuid "a0e2ede4-f3a2-4938-93d9-25b2f750b45c")
+		(pin "16"
+			(uuid "920cfc9c-1190-4f46-9307-1a261c767193")
 		)
-		(pin "23"
-			(uuid "98fc99ba-b21b-429b-8743-34d007a0a6c3")
+		(pin "7"
+			(uuid "d7b3a784-0587-46ba-a747-89670ec17966")
 		)
-		(pin "21"
-			(uuid "8e4dee62-1d54-4913-9c6c-88018edd0cf6")
+		(pin "9"
+			(uuid "aa7b3aa0-e913-4b57-8a4d-2acc051a11d0")
 		)
-		(pin "11"
-			(uuid "e981e67f-d790-41dd-b846-cf4579d048d9")
+		(pin "8"
+			(uuid "fe7597f4-e2a4-44ed-8377-836f2ed5d71c")
+		)
+		(pin "4"
+			(uuid "271ea02f-e9a1-42b4-b7d4-3cabf0b2a2c9")
+		)
+		(pin "13"
+			(uuid "30e93d43-a586-4559-85af-8ccb3e942369")
+		)
+		(pin "27"
+			(uuid "ecc9a0c9-1286-4e0b-b882-81a28416978c")
+		)
+		(pin "5"
+			(uuid "6f32bda6-478b-45ff-b6fa-8d21863428ad")
 		)
 		(pin "10"
-			(uuid "ba6908f1-c536-4cbe-b1d9-0cd706877796")
+			(uuid "389fe6be-a349-40a3-9e63-6ecd7bd73b01")
+		)
+		(pin "11"
+			(uuid "8faf935a-bd7a-46f0-bb82-b81e0ad78d08")
+		)
+		(pin "26"
+			(uuid "17e9d6b0-3b9a-44f3-ba33-ea3bebc07fc6")
+		)
+		(pin "12"
+			(uuid "370a138e-1025-445f-ad75-37dac6b4db6a")
+		)
+		(pin "28"
+			(uuid "45acde0f-c9aa-4ce3-9ebe-6eca576118d2")
+		)
+		(pin "25"
+			(uuid "90a426d2-d6e1-4214-821d-7443c1a3356b")
+		)
+		(pin "3"
+			(uuid "c4169c52-61e2-49ef-859a-1df33b8f430e")
+		)
+		(pin "23"
+			(uuid "808fb069-c9b9-4986-9a97-7576d9bc2cc2")
+		)
+		(pin "2"
+			(uuid "4a14dc63-30c0-4907-83b3-b3f2dd17e625")
+		)
+		(pin "22"
+			(uuid "29fb0490-8ceb-4477-b7ce-7d370f8d5bf1")
+		)
+		(pin "21"
+			(uuid "6b7bdb9f-2515-4c35-a449-d68f3a15687d")
+		)
+		(pin "20"
+			(uuid "8437d407-1fb8-4c4b-a00c-91eda0fbe7f0")
+		)
+		(pin "19"
+			(uuid "e8da0c0d-1fdc-4e76-b41c-17b3c15217e1")
+		)
+		(pin "17"
+			(uuid "d559ad46-5325-4c75-be15-4ebfaf8fbac7")
 		)
 		(pin "15"
-			(uuid "4be714e5-cb9b-4ee5-bb55-727d172f7d16")
+			(uuid "d01b9cf0-ffab-4837-b6ea-d763f59b4b67")
 		)
 		(instances
 			(project ""

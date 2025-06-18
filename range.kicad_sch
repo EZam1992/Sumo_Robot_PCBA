@@ -578,10 +578,10 @@
 		)
 		(uuid "e4bf9152-3da3-40b9-9fce-4838cb6895fa")
 	)
-	(text_box "There would be some flags coming from the pins to indicate that sensors are active "
+	(text_box "Need to understanding how to deal with differential signals in Kicad "
 		(exclude_from_sim no)
-		(at 20.32 16.51 0)
-		(size 19.05 17.78)
+		(at 33.02 24.13 0)
+		(size 38.1 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -596,7 +596,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "c4445f99-8dd3-4de8-ab13-e08b18544d5e")
+		(uuid "151a246e-a4ec-4c19-8a3f-d7312ace0b5f")
 	)
 	(wire
 		(pts

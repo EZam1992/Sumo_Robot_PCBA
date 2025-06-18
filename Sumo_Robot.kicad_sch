@@ -5,6 +5,26 @@
 	(uuid "f283bc71-7763-4093-b75c-cbe2f5868c12")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 60.96 67.31) (xy 124.46 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a982a75-0065-4021-be07-eed8cd7ad13b")
+	)
+	(wire
+		(pts
+			(xy 60.96 73.66) (xy 124.46 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c238356-2fbd-4c89-ab1b-1f45a74deb69")
+	)
 	(sheet
 		(at 35.56 176.53)
 		(size 22.86 15.24)
@@ -178,7 +198,7 @@
 		)
 	)
 	(sheet
-		(at 123.19 68.58)
+		(at 124.46 62.23)
 		(size 36.83 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -195,7 +215,7 @@
 		)
 		(uuid "9428f158-f7fc-4e4a-b97b-e16df299d57c")
 		(property "Sheetname" "Microcontroller"
-			(at 123.19 67.8684 0)
+			(at 124.46 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -204,12 +224,32 @@
 			)
 		)
 		(property "Sheetfile" "micro.kicad_sch"
-			(at 123.19 109.8046 0)
+			(at 124.46 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SCL" output
+			(at 124.46 67.31 180)
+			(uuid "25251b3b-0f75-449c-adef-ec46fc32ff25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" output
+			(at 124.46 73.66 180)
+			(uuid "f44d878b-9587-4973-8df6-2a4ebcbe3663")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

@@ -583,7 +583,7 @@
 	)
 	(text_box "There would be some flags coming from the pins to indicate that range sensors are active ; need to understand where the pullup is for the i2c lines "
 		(exclude_from_sim no)
-		(at 96.52 40.64 0)
+		(at 67.31 25.4 0)
 		(size 22.86 21.59)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -600,6 +600,16 @@
 			(justify left top)
 		)
 		(uuid "4a6f259e-1e87-4c82-bc9d-0cf71e1d9f08")
+	)
+	(wire
+		(pts
+			(xy 142.24 80.01) (xy 146.05 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ac3cda-b5bd-47ca-a3ee-4223fb95ca05")
 	)
 	(wire
 		(pts
@@ -620,6 +630,17 @@
 			(type default)
 		)
 		(uuid "b1432d5e-3874-4db4-bdba-efbe7a775cdb")
+	)
+	(hierarchical_label "IR_RECEIVE"
+		(shape input)
+		(at 142.24 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35c286eb-49d8-4451-a9e4-6faf79af3fd1")
 	)
 	(hierarchical_label "SCL"
 		(shape output)

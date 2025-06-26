@@ -578,26 +578,6 @@
 		)
 		(uuid "e4bf9152-3da3-40b9-9fce-4838cb6895fa")
 	)
-	(text_box "Need to understanding how to deal with differential signals in Kicad "
-		(exclude_from_sim no)
-		(at 33.02 24.13 0)
-		(size 38.1 7.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "151a246e-a4ec-4c19-8a3f-d7312ace0b5f")
-	)
 	(wire
 		(pts
 			(xy 36.83 66.04) (xy 39.37 66.04)

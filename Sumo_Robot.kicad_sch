@@ -17,6 +17,26 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 128.27) (xy 118.11 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55999f09-2911-4ae5-a276-b3203ec18c35")
+	)
+	(wire
+		(pts
+			(xy 57.15 128.27) (xy 118.11 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af595c1-1304-4bc2-82b0-fc2c407947e8")
+	)
+	(wire
+		(pts
 			(xy 60.96 73.66) (xy 124.46 73.66)
 		)
 		(stroke
@@ -24,6 +44,16 @@
 			(type default)
 		)
 		(uuid "9c238356-2fbd-4c89-ab1b-1f45a74deb69")
+	)
+	(wire
+		(pts
+			(xy 118.11 97.79) (xy 124.46 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e75baa22-321d-4cb0-bb91-86a27e8fcbca")
 	)
 	(sheet
 		(at 35.56 176.53)
@@ -69,7 +99,7 @@
 		)
 	)
 	(sheet
-		(at 38.1 137.16)
+		(at 33.02 119.38)
 		(size 24.13 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -86,7 +116,7 @@
 		)
 		(uuid "411157fa-1b9b-4833-94db-a0992fa5119f")
 		(property "Sheetname" "InfraredReceiver"
-			(at 38.1 136.4484 0)
+			(at 33.02 118.6684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -95,12 +125,22 @@
 			)
 		)
 		(property "Sheetfile" "receiver.kicad_sch"
-			(at 38.1 155.5246 0)
+			(at 33.02 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "IR_RECEIVE" output
+			(at 57.15 128.27 0)
+			(uuid "8ead970a-a538-42c1-b2d8-8ceb51080297")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -252,6 +292,16 @@
 				(justify left)
 			)
 		)
+		(pin "IR_RECEIVE" input
+			(at 124.46 97.79 180)
+			(uuid "48d23a0d-3f7b-4685-93ca-eca453b5be97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Sumo_Robot"
 				(path "/f283bc71-7763-4093-b75c-cbe2f5868c12"
@@ -304,7 +354,7 @@
 		)
 	)
 	(sheet
-		(at 38.1 101.6)
+		(at 33.02 88.9)
 		(size 26.67 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -321,7 +371,7 @@
 		)
 		(uuid "c0f33207-9995-4f2a-ae00-c92efedb65e6")
 		(property "Sheetname" "LineSensors"
-			(at 38.1 100.8884 0)
+			(at 33.02 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -330,7 +380,7 @@
 			)
 		)
 		(property "Sheetfile" "line.kicad_sch"
-			(at 38.1 125.0446 0)
+			(at 33.02 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)

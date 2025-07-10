@@ -613,7 +613,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 72.39) (xy 201.93 72.39)
+			(xy 142.24 67.31) (xy 146.05 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f62e69f-deeb-4641-9f5f-9b093c9be3be")
+	)
+	(wire
+		(pts
+			(xy 193.04 72.39) (xy 199.39 72.39)
 		)
 		(stroke
 			(width 0)
@@ -623,13 +633,34 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 69.85) (xy 201.93 69.85)
+			(xy 142.24 69.85) (xy 146.05 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f0fb35-8fa0-4e7c-b327-d6671e8e6404")
+	)
+	(wire
+		(pts
+			(xy 193.04 69.85) (xy 199.39 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b1432d5e-3874-4db4-bdba-efbe7a775cdb")
+	)
+	(hierarchical_label "LD_FRONT_LEFT"
+		(shape input)
+		(at 142.24 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ed8e761-f750-487f-b95a-99ad4a49693c")
 	)
 	(hierarchical_label "IR_RECEIVE"
 		(shape input)
@@ -644,7 +675,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape output)
-		(at 201.93 72.39 0)
+		(at 199.39 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -653,9 +684,20 @@
 		)
 		(uuid "42df4c9e-bc82-4708-8f3a-342793685cc3")
 	)
+	(hierarchical_label "LD_BACK_RIGHT"
+		(shape input)
+		(at 245.11 146.05 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "466d3561-1e05-4ac4-affc-98585884049b")
+	)
 	(hierarchical_label "SDA"
 		(shape output)
-		(at 201.93 69.85 0)
+		(at 199.39 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -663,6 +705,28 @@
 			(justify left)
 		)
 		(uuid "616d5a48-b863-46c4-b375-a6e90ce13cd5")
+	)
+	(hierarchical_label "LD_FRONT_RIGHT"
+		(shape input)
+		(at 184.15 144.78 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f32b9a7-8efb-4cc8-82b6-83a1f4e19a56")
+	)
+	(hierarchical_label "LD_BACK_LEFT"
+		(shape input)
+		(at 142.24 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa50eadf-aca5-4a35-bdf2-b068ab535ea6")
 	)
 	(symbol
 		(lib_id "sumo-robot-symbols:MSP430G2553IPW28")

@@ -1542,7 +1542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "160pF"
 			(at 84.328 52.324 0)
 			(effects
 				(font
@@ -1611,7 +1611,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 99.06 54.61 90)
 			(effects
 				(font
@@ -1737,15 +1737,15 @@
 		(dnp no)
 		(uuid "c8e4e28a-1bca-440e-9f24-66c4713ef173")
 		(property "Reference" "R4"
-			(at 106.68 67.564 90)
+			(at 106.68 65.786 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 106.68 65.786 90)
+		(property "Value" "1k"
+			(at 107.188 67.564 90)
 			(effects
 				(font
 					(size 1.27 1.27)

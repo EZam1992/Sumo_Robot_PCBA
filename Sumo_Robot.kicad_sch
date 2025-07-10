@@ -388,6 +388,46 @@
 				(justify left top)
 			)
 		)
+		(pin "LD_FRONT_LEFT" output
+			(at 59.69 92.71 0)
+			(uuid "6173f9bd-2008-4051-a6be-86468d11a5f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LD_BACK_RIGHT" output
+			(at 59.69 107.95 0)
+			(uuid "f1be58af-152b-4027-9e65-475a9f3fc40b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LD_BACK_LEFT" output
+			(at 59.69 102.87 0)
+			(uuid "f341c1e6-f01c-473c-a104-9d1b691cc041")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LD_FRONT_RIGHT" output
+			(at 59.69 97.79 0)
+			(uuid "d7725fff-4da1-43b5-9049-66682bca38b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Sumo_Robot"
 				(path "/f283bc71-7763-4093-b75c-cbe2f5868c12"

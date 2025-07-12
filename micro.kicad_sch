@@ -583,7 +583,7 @@
 	)
 	(text_box "There would be some flags coming from the pins to indicate that range sensors are active ; need to understand where the pullup is for the i2c lines "
 		(exclude_from_sim no)
-		(at 67.31 25.4 0)
+		(at 229.87 27.94 0)
 		(size 22.86 21.59)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -601,6 +601,26 @@
 		)
 		(uuid "4a6f259e-1e87-4c82-bc9d-0cf71e1d9f08")
 	)
+	(text_box "Need to implement how to program this microcontroller "
+		(exclude_from_sim no)
+		(at 195.58 29.21 0)
+		(size 17.78 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "756ac045-9a5e-4527-ae6c-f965712cdb81")
+	)
 	(wire
 		(pts
 			(xy 142.24 80.01) (xy 146.05 80.01)
@@ -610,6 +630,16 @@
 			(type default)
 		)
 		(uuid "09ac3cda-b5bd-47ca-a3ee-4223fb95ca05")
+	)
+	(wire
+		(pts
+			(xy 142.24 59.69) (xy 146.05 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "264f3425-2f0f-47a4-8458-1ee6c325702a")
 	)
 	(wire
 		(pts
@@ -640,6 +670,16 @@
 			(type default)
 		)
 		(uuid "73f0fb35-8fa0-4e7c-b327-d6671e8e6404")
+	)
+	(wire
+		(pts
+			(xy 142.24 72.39) (xy 146.05 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adae034c-8b0d-4876-a9a2-52408709cbf7")
 	)
 	(wire
 		(pts
@@ -686,12 +726,12 @@
 	)
 	(hierarchical_label "LD_BACK_RIGHT"
 		(shape input)
-		(at 245.11 146.05 90)
+		(at 142.24 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "466d3561-1e05-4ac4-affc-98585884049b")
 	)
@@ -708,12 +748,12 @@
 	)
 	(hierarchical_label "LD_FRONT_RIGHT"
 		(shape input)
-		(at 184.15 144.78 90)
+		(at 142.24 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8f32b9a7-8efb-4cc8-82b6-83a1f4e19a56")
 	)

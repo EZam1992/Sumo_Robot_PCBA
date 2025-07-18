@@ -879,7 +879,7 @@
 		(uuid "fa4e1d7e-0e04-43b3-b8ce-5fdd1cac0bfd")
 	)
 	(hierarchical_label "SDA"
-		(shape input)
+		(shape output)
 		(at 133.35 66.04 180)
 		(effects
 			(font
@@ -890,7 +890,7 @@
 		(uuid "1239d73f-4f5d-49e6-8c03-e092f6bdee36")
 	)
 	(hierarchical_label "SDA"
-		(shape input)
+		(shape output)
 		(at 68.58 66.04 180)
 		(effects
 			(font
@@ -901,7 +901,7 @@
 		(uuid "4999d7d4-30cc-41da-ac2a-deebbc4e13b9")
 	)
 	(hierarchical_label "SDA"
-		(shape input)
+		(shape output)
 		(at 100.33 66.04 180)
 		(effects
 			(font
@@ -912,7 +912,7 @@
 		(uuid "7c550570-7f34-41e9-918f-9acb0051858d")
 	)
 	(hierarchical_label "SCL"
-		(shape input)
+		(shape output)
 		(at 133.35 63.5 180)
 		(effects
 			(font
@@ -923,7 +923,7 @@
 		(uuid "8635e073-12af-4d13-8021-229ebc921aae")
 	)
 	(hierarchical_label "SCL"
-		(shape input)
+		(shape output)
 		(at 36.83 63.5 180)
 		(effects
 			(font
@@ -934,7 +934,7 @@
 		(uuid "8746015f-255c-49f5-8d28-5121d92e2b40")
 	)
 	(hierarchical_label "SDA"
-		(shape input)
+		(shape output)
 		(at 163.83 66.04 180)
 		(effects
 			(font
@@ -945,7 +945,7 @@
 		(uuid "add404ec-d7ba-4d17-9d5e-7060c1afac3f")
 	)
 	(hierarchical_label "SCL"
-		(shape input)
+		(shape output)
 		(at 68.58 63.5 180)
 		(effects
 			(font
@@ -956,7 +956,7 @@
 		(uuid "c6e817b9-8033-4900-873b-2ba3bac4b77a")
 	)
 	(hierarchical_label "SCL"
-		(shape input)
+		(shape output)
 		(at 100.33 63.5 180)
 		(effects
 			(font
@@ -967,7 +967,7 @@
 		(uuid "d2a3ed72-74f6-4c39-b744-569af7562a51")
 	)
 	(hierarchical_label "SDA"
-		(shape input)
+		(shape output)
 		(at 36.83 66.04 180)
 		(effects
 			(font
@@ -978,7 +978,7 @@
 		(uuid "d6ffee9f-351b-4fbc-9bfd-82cb6226b198")
 	)
 	(hierarchical_label "SCL"
-		(shape input)
+		(shape output)
 		(at 163.83 63.5 180)
 		(effects
 			(font

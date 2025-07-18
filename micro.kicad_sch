@@ -714,7 +714,7 @@
 		(uuid "35c286eb-49d8-4451-a9e4-6faf79af3fd1")
 	)
 	(hierarchical_label "SCL"
-		(shape output)
+		(shape input)
 		(at 199.39 72.39 0)
 		(effects
 			(font
@@ -736,7 +736,7 @@
 		(uuid "466d3561-1e05-4ac4-affc-98585884049b")
 	)
 	(hierarchical_label "SDA"
-		(shape output)
+		(shape input)
 		(at 199.39 69.85 0)
 		(effects
 			(font

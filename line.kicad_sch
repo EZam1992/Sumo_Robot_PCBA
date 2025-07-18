@@ -784,13 +784,34 @@
 	)
 	(text "Sensor Connection Reference "
 		(exclude_from_sim no)
-		(at 54.102 27.686 0)
+		(at 48.006 18.288 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "32e16531-a764-4f09-9165-21782573f28c")
+	)
+	(text_box "This is the diagram for the sensor connection outside the PCBA. "
+		(exclude_from_sim no)
+		(at 76.2 17.78 0)
+		(size 29.21 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 181 255 245 1)
+		)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left top)
 		)
-		(uuid "32e16531-a764-4f09-9165-21782573f28c")
+		(uuid "81675fbf-dd18-4c0a-894d-6f67fb4bfb5e")
 	)
 	(junction
 		(at 262.89 109.22)
@@ -1281,8 +1302,8 @@
 		(uuid "ff099312-457a-4db0-9a73-0b5c26cfa53e")
 	)
 	(image
-		(at 53.34 44.45)
-		(scale 0.276179)
+		(at 48.26 49.53)
+		(scale 0.526385)
 		(uuid "b2749827-4f0a-4e1c-86f0-292654e02cb5")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAWwAAAGFCAIAAABWtl6kAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
 			"AA50AAAOdAFrJLPWAAAgAElEQVR4nO3df3gTZYIH8LcllFDbEmuBoWVrF6tMfVgvB1qiIhSM2vPu"

@@ -1422,11 +1422,37 @@
 		)
 		(uuid "756ac045-9a5e-4527-ae6c-f965712cdb81")
 	)
+	(text_box "Need to add XTAL OSC"
+		(exclude_from_sim no)
+		(at 176.53 20.32 0)
+		(size 29.21 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8233fd73-bc07-4228-8961-9b5f02980da9")
+	)
 	(junction
 		(at 231.14 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a5fdd35-b7d7-44fe-9360-487ff7f1e3a6")
+	)
+	(junction
+		(at 219.71 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f594a9c-a9b2-447c-8d65-56497328e9ce")
 	)
 	(junction
 		(at 233.68 67.31)
@@ -1471,6 +1497,16 @@
 			(type default)
 		)
 		(uuid "0bd88078-18cf-4b04-9ea2-1f37560c441c")
+	)
+	(wire
+		(pts
+			(xy 142.24 62.23) (xy 146.05 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb6f273-bdfb-4788-896d-2d0e81f46861")
 	)
 	(wire
 		(pts
@@ -1531,6 +1567,16 @@
 			(type default)
 		)
 		(uuid "31aa0a73-952d-4e0f-9ecd-458d69e0dc5f")
+	)
+	(wire
+		(pts
+			(xy 219.71 62.23) (xy 219.71 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aef65d0-73f3-44ce-80f5-232b8567875d")
 	)
 	(wire
 		(pts
@@ -1704,6 +1750,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 67.31) (xy 231.14 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a8a2c3-c5fd-43ac-b4b6-b452f85f485d")
+	)
+	(wire
+		(pts
 			(xy 233.68 93.98) (xy 231.14 93.98)
 		)
 		(stroke
@@ -1761,6 +1817,16 @@
 			(type default)
 		)
 		(uuid "c098ec69-9821-4120-b359-64b799973dd3")
+	)
+	(wire
+		(pts
+			(xy 142.24 64.77) (xy 146.05 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c33a9121-0039-4b12-8e2d-0e2c6f84a862")
 	)
 	(wire
 		(pts
@@ -1884,7 +1950,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 67.31) (xy 231.14 67.31)
+			(xy 215.9 67.31) (xy 219.71 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1921,6 +1987,28 @@
 			(type default)
 		)
 		(uuid "fa321ec7-3c32-4371-882c-02faa6a58f2c")
+	)
+	(global_label "UART_TX"
+		(shape output)
+		(at 142.24 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "0d024eff-e9ce-4a09-ad44-987efca84259")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.6896 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "UNUSED_8"
 		(shape output)
@@ -1962,6 +2050,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{RST}"
+		(shape output)
+		(at 219.71 62.23 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "77f18ba0-443b-4cb8-ae64-656de719d147")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.71 57.7275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2133,6 +2243,28 @@
 		(uuid "f095db39-7e98-4f64-9c76-59bf9f3e5ff1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 133.2926 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_RX"
+		(shape input)
+		(at 142.24 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "fa1427c8-0a77-45fb-890e-2fc1a6efa9b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.4779 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2942,7 +3074,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uf"
+		(property "Value" "1uf"
 			(at 219.202 78.994 0)
 			(effects
 				(font

@@ -296,49 +296,6 @@
 		(uuid "fcf446e6-8081-4643-9b18-7abac571dcf5")
 	)
 	(sheet
-		(at 233.68 111.76)
-		(size 22.86 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(fill
-			(color 148 255 23 1.0000)
-		)
-		(uuid "385d545c-a594-46c7-8442-a965f8696594")
-		(property "Sheetname" "Mechanical"
-			(at 233.68 111.0484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "mechanical.kicad_sch"
-			(at 233.68 127.5846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Sumo_Robot"
-				(path "/f283bc71-7763-4093-b75c-cbe2f5868c12"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 53.34 118.11)
 		(size 24.13 17.78)
 		(exclude_from_sim no)

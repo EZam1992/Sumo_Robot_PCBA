@@ -296,7 +296,7 @@
 		(uuid "fcf446e6-8081-4643-9b18-7abac571dcf5")
 	)
 	(sheet
-		(at 229.87 121.92)
+		(at 233.68 111.76)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -313,7 +313,7 @@
 		)
 		(uuid "385d545c-a594-46c7-8442-a965f8696594")
 		(property "Sheetname" "Mechanical"
-			(at 229.87 121.2084 0)
+			(at 233.68 111.0484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -322,7 +322,7 @@
 			)
 		)
 		(property "Sheetfile" "mechanical.kicad_sch"
-			(at 229.87 137.7446 0)
+			(at 233.68 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

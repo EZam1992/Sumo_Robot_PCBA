@@ -1016,7 +1016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-37_Pins_EdgeMount_P2.77mm"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-4_P5.00mm"
 			(at 76.2 63.5 0)
 			(effects
 				(font
@@ -1092,7 +1092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-37_Pins_EdgeMount_P2.77mm"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-4_P5.00mm"
 			(at 171.45 63.5 0)
 			(effects
 				(font
@@ -1298,7 +1298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-37_Pins_EdgeMount_P2.77mm"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-4_P5.00mm"
 			(at 140.97 63.5 0)
 			(effects
 				(font
@@ -1440,7 +1440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-37_Pins_EdgeMount_P2.77mm"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-4_P5.00mm"
 			(at 107.95 63.5 0)
 			(effects
 				(font
@@ -1843,7 +1843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-37_Pins_EdgeMount_P2.77mm"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-4_P5.00mm"
 			(at 44.45 63.5 0)
 			(effects
 				(font

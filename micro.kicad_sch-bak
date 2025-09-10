@@ -1185,10 +1185,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Omron_B3FS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Switch:SW_MEC_5G_LED"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1197,16 +1194,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "SW_Omron_B3FS"
-				(at 0 -1.524 0)
+			(property "Value" "SW_MEC_5G_LED"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1214,7 +1210,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1222,8 +1218,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-				(at 0 5.08 0)
+			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1231,7 +1227,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(property "Description" "MEC 5G single pole normally-open illuminated tactile switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1240,7 +1236,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(property "ki_keywords" "switch normally-open pushbutton push-button LED"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1249,7 +1245,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW*Omron*B3FS*"
+			(property "ki_fp_filters" "SW*MEC*5G*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1258,9 +1254,95 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Omron_B3FS_0_1"
+			(symbol "SW_MEC_5G_LED_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -1.524) (xy -2.286 -2.159) (xy -1.651 -2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -2.159) (xy -1.016 -0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.524) (xy -1.016 -2.159) (xy -0.381 -2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -2.159) (xy 0.254 -0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy -0.635 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 1.27 1.27) (xy 1.27 -1.27) (xy -0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SW_MEC_5G_LED_0_1"
 				(circle
-					(center -2.032 0)
+					(center -2.032 2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -1272,7 +1354,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.048)
+						(xy 0 3.81) (xy 0 5.588)
 					)
 					(stroke
 						(width 0)
@@ -1283,7 +1365,7 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
+					(center 2.032 2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -1295,7 +1377,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
+						(xy 2.54 3.81) (xy -2.54 3.81)
 					)
 					(stroke
 						(width 0)
@@ -1306,7 +1388,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -1324,7 +1406,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -1339,6 +1421,55 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_MEC_5G_LED_1_1"
+				(rectangle
+					(start -3.175 5.715)
+					(end 3.175 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -2147,22 +2278,16 @@
 		)
 	)
 	(junction
+		(at 175.26 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a5fdd35-b7d7-44fe-9360-487ff7f1e3a6")
+	)
+	(junction
 		(at 163.83 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1db05626-0fd1-4319-8846-7cf2ecc22013")
-	)
-	(junction
-		(at 175.26 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23f2ef1f-c577-4c36-af95-25cce85007ca")
-	)
-	(junction
-		(at 58.42 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e5cd9e6-46bf-46cd-835c-ab67272dc4e7")
 	)
 	(junction
 		(at 163.83 68.58)
@@ -2193,12 +2318,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf0379b1-cb3e-46fe-9ac3-07ada4ff174a")
-	)
-	(junction
-		(at 44.45 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "deb02003-5f61-4d91-850c-423839e828c4")
 	)
 	(wire
 		(pts
@@ -2232,16 +2351,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 92.71) (xy 175.26 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "143a4d63-783e-4a67-92d4-0b10d2094c94")
-	)
-	(wire
-		(pts
 			(xy 187.96 68.58) (xy 187.96 67.31)
 		)
 		(stroke
@@ -2249,16 +2358,6 @@
 			(type default)
 		)
 		(uuid "18cc2e2a-1538-40eb-92c1-529db2866b3c")
-	)
-	(wire
-		(pts
-			(xy 177.8 88.9) (xy 177.8 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "190755f8-eae7-4227-83e6-d118b80801a6")
 	)
 	(wire
 		(pts
@@ -2322,7 +2421,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 91.44) (xy 175.26 92.71)
+			(xy 175.26 95.25) (xy 175.26 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2392,16 +2491,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 66.04) (xy 58.42 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4648916b-cf36-4a8a-bc78-a113a937315d")
-	)
-	(wire
-		(pts
 			(xy 184.15 22.86) (xy 184.15 26.67)
 		)
 		(stroke
@@ -2459,16 +2548,6 @@
 			(type default)
 		)
 		(uuid "533cab17-b1e5-4319-af3c-a10f5f2f82f7")
-	)
-	(wire
-		(pts
-			(xy 58.42 58.42) (xy 90.17 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "564f6f2e-1580-4deb-bc01-414b721d9e5c")
 	)
 	(wire
 		(pts
@@ -2612,13 +2691,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 43.18) (xy 38.1 58.42)
+			(xy 177.8 91.44) (xy 177.8 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "892bebec-887c-4e3f-abd8-944cd712428c")
+		(uuid "90076a0d-0a16-4065-9472-2f0a04ebeac3")
 	)
 	(wire
 		(pts
@@ -2662,23 +2741,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 92.71) (xy 175.26 92.71)
+			(xy 177.8 95.25) (xy 175.26 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9947bbd0-8011-43e6-a698-779855ee88d9")
-	)
-	(wire
-		(pts
-			(xy 44.45 66.04) (xy 44.45 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b3c102d-3406-46cc-b802-548441fb1c44")
+		(uuid "9d494b9d-363a-4322-870c-723a432171b5")
 	)
 	(wire
 		(pts
@@ -2689,16 +2758,6 @@
 			(type default)
 		)
 		(uuid "a889ca37-bb7b-44c1-808a-82f1eeef8be4")
-	)
-	(wire
-		(pts
-			(xy 38.1 58.42) (xy 44.45 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abb1f8dc-24d4-4409-a5a9-5a3f6a5c022a")
 	)
 	(wire
 		(pts
@@ -2832,6 +2891,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 91.44) (xy 175.26 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d341f03b-ab66-45b4-b6ca-3588c071cb15")
+	)
+	(wire
+		(pts
 			(xy 118.11 30.48) (xy 118.11 33.02)
 		)
 		(stroke
@@ -2899,16 +2968,6 @@
 			(type default)
 		)
 		(uuid "e22d75ce-758d-4591-9088-f19dd033515b")
-	)
-	(wire
-		(pts
-			(xy 44.45 58.42) (xy 58.42 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e30d8ed7-e712-4226-b08b-84752199e168")
 	)
 	(wire
 		(pts
@@ -3001,7 +3060,7 @@
 		(uuid "fa321ec7-3c32-4371-882c-02faa6a58f2c")
 	)
 	(image
-		(at 40.64 115.57)
+		(at 40.64 35.56)
 		(scale 1.3232)
 		(uuid "4929bd46-2878-4085-b02f-0457090bd8a9")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAeUAAAF9CAIAAAC1Z+cbAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
@@ -5057,7 +5116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
+		(property "Footprint" ""
 			(at 92.71 93.98 0)
 			(effects
 				(font
@@ -5245,73 +5304,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 38.1 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "185de1c7-76c2-4e2c-9e83-bc498e30ce02")
-		(property "Reference" "#PWR057"
-			(at 38.1 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 37.846 38.862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 38.1 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41d95500-9d3a-40b1-9aab-5f14e0fededf")
-		)
-		(instances
-			(project "Sumo_Robot"
-				(path "/f283bc71-7763-4093-b75c-cbe2f5868c12/9428f158-f7fc-4e4a-b97b-e16df299d57c"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 17.78 71.12 0)
+		(at 26.67 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5320,7 +5314,7 @@
 		(fields_autoplaced yes)
 		(uuid "27770d14-924b-4020-b90e-f3d53a24fd15")
 		(property "Reference" "H1"
-			(at 20.32 69.8499 0)
+			(at 29.21 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +5323,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 20.32 72.3899 0)
+			(at 29.21 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,7 +5332,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad"
-			(at 17.78 71.12 0)
+			(at 26.67 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5347,7 +5341,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 71.12 0)
+			(at 26.67 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5356,7 +5350,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 17.78 71.12 0)
+			(at 26.67 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,7 +5435,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 17.78 83.82 0)
+		(at 26.67 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5450,7 +5444,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cfb135f-ad4f-42b0-bcea-7cca2182c97c")
 		(property "Reference" "H3"
-			(at 20.32 82.5499 0)
+			(at 29.21 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +5453,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 20.32 85.0899 0)
+			(at 29.21 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +5462,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad"
-			(at 17.78 83.82 0)
+			(at 26.67 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +5471,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 83.82 0)
+			(at 26.67 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,7 +5480,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 17.78 83.82 0)
+			(at 26.67 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5498,6 +5492,80 @@
 			(project "Sumo_Robot"
 				(path "/f283bc71-7763-4093-b75c-cbe2f5868c12/9428f158-f7fc-4e4a-b97b-e16df299d57c"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G_LED")
+		(at 177.8 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56174168-beed-45d3-8cad-8653d0f50bb6")
+		(property "Reference" "SW2"
+			(at 169.672 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G_LED"
+			(at 170.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 184.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open illuminated tactile switch"
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3b52a0ae-a0ea-4f42-a891-0908d7109ef5")
+		)
+		(pin "2"
+			(uuid "193fe0dc-68b6-47ec-8640-04ea6e865878")
+		)
+		(pin "1"
+			(uuid "5060253d-c4e3-4573-8566-d0dbdf5f6e4f")
+		)
+		(pin "3"
+			(uuid "c0d2c3eb-29db-4c31-b5f7-8b56b0c51a6d")
+		)
+		(instances
+			(project ""
+				(path "/f283bc71-7763-4093-b75c-cbe2f5868c12/9428f158-f7fc-4e4a-b97b-e16df299d57c"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -5531,7 +5599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
+		(property "Footprint" ""
 			(at 130.81 38.1 0)
 			(effects
 				(font
@@ -5644,77 +5712,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 44.45 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64885b5b-f633-497c-9eec-aee1e2404b0e")
-		(property "Reference" "C11"
-			(at 45.974 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uf"
-			(at 47.752 62.484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 45.4152 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 44.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca48eae5-bb64-401c-8e8b-d54a13d90202")
-		)
-		(pin "2"
-			(uuid "c4ad99cb-a591-4168-8259-f8680350115c")
-		)
-		(instances
-			(project "Sumo_Robot"
-				(path "/f283bc71-7763-4093-b75c-cbe2f5868c12/9428f158-f7fc-4e4a-b97b-e16df299d57c"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 17.78 90.17 0)
+		(at 26.67 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5723,7 +5722,7 @@
 		(fields_autoplaced yes)
 		(uuid "68df967c-3483-4f1e-9a8c-75770053b361")
 		(property "Reference" "H4"
-			(at 20.32 88.8999 0)
+			(at 29.21 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5732,7 +5731,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 20.32 91.4399 0)
+			(at 29.21 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,7 +5740,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad"
-			(at 17.78 90.17 0)
+			(at 26.67 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5750,7 +5749,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 90.17 0)
+			(at 26.67 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5759,7 +5758,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 17.78 90.17 0)
+			(at 26.67 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5909,75 +5908,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 58.42 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71e72031-cb04-44e6-8fa3-8032d0d38014")
-		(property "Reference" "C12"
-			(at 59.944 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nf"
-			(at 61.722 62.484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 59.3852 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 58.42 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6938f48c-fba0-4d98-b844-090d9fe723b5")
-		)
-		(pin "2"
-			(uuid "f8ca4a29-ae2f-45b2-a24e-d117d726e9b8")
-		)
-		(instances
-			(project "Sumo_Robot"
-				(path "/f283bc71-7763-4093-b75c-cbe2f5868c12/9428f158-f7fc-4e4a-b97b-e16df299d57c"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 171.45 40.64 270)
 		(unit 1)
@@ -6005,7 +5935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" ""
 			(at 171.45 40.64 0)
 			(effects
 				(font
@@ -6042,72 +5972,6 @@
 			(project ""
 				(path "/f283bc71-7763-4093-b75c-cbe2f5868c12/9428f158-f7fc-4e4a-b97b-e16df299d57c"
 					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8695e2f5-d145-4164-b987-eacc8a953041")
-		(property "Reference" "#PWR059"
-			(at 58.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b79887f0-0421-4598-bc8e-e62b5a389b87")
-		)
-		(instances
-			(project "Sumo_Robot"
-				(path "/f283bc71-7763-4093-b75c-cbe2f5868c12/9428f158-f7fc-4e4a-b97b-e16df299d57c"
-					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -6272,7 +6136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" ""
 			(at 160.9852 83.82 0)
 			(effects
 				(font
@@ -6315,76 +6179,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 175.26 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6d0353e-2fae-4121-9d54-749d782dcd80")
-		(property "Reference" "SW3"
-			(at 171.196 84.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 176.53 87.6299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 175.26 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6a7e931c-a0da-4c8c-bf5f-96adb5ba320c")
-		)
-		(pin "1"
-			(uuid "33aeccf5-ac7e-465a-a1c7-095c48e81fd6")
-		)
-		(instances
-			(project ""
-				(path "/f283bc71-7763-4093-b75c-cbe2f5868c12/9428f158-f7fc-4e4a-b97b-e16df299d57c"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
 		(at 113.03 38.1 270)
 		(unit 1)
@@ -6411,7 +6205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical"
+		(property "Footprint" ""
 			(at 113.03 38.1 0)
 			(effects
 				(font
@@ -6499,7 +6293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" ""
 			(at 186.69 31.75 0)
 			(effects
 				(font
@@ -6602,85 +6396,6 @@
 			(project "Sumo_Robot"
 				(path "/f283bc71-7763-4093-b75c-cbe2f5868c12/9428f158-f7fc-4e4a-b97b-e16df299d57c"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 177.8 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4d7ca11-39be-4465-9b65-28dde105b182")
-		(property "Reference" "D9"
-			(at 181.61 85.4074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 181.61 87.9474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric"
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58ea76d8-6c2b-411c-b561-63cdc9900fe2")
-		)
-		(pin "2"
-			(uuid "b076aa84-6622-4c2f-aa81-3891244a99de")
-		)
-		(instances
-			(project "Sumo_Robot"
-				(path "/f283bc71-7763-4093-b75c-cbe2f5868c12/9428f158-f7fc-4e4a-b97b-e16df299d57c"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -6951,7 +6666,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 17.78 77.47 0)
+		(at 26.67 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6960,7 +6675,7 @@
 		(fields_autoplaced yes)
 		(uuid "e812e052-3a52-4e23-b285-a07ad58135bc")
 		(property "Reference" "H2"
-			(at 20.32 76.1999 0)
+			(at 29.21 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6969,7 +6684,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 20.32 78.7399 0)
+			(at 29.21 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6978,7 +6693,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad"
-			(at 17.78 77.47 0)
+			(at 26.67 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6987,7 +6702,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 77.47 0)
+			(at 26.67 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,7 +6711,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 17.78 77.47 0)
+			(at 26.67 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7008,72 +6723,6 @@
 			(project "Sumo_Robot"
 				(path "/f283bc71-7763-4093-b75c-cbe2f5868c12/9428f158-f7fc-4e4a-b97b-e16df299d57c"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 44.45 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8b2d15a-e040-4a12-ba50-5e8219eb9783")
-		(property "Reference" "#PWR058"
-			(at 44.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "980da93d-869e-4959-9cdb-c27081fcd919")
-		)
-		(instances
-			(project "Sumo_Robot"
-				(path "/f283bc71-7763-4093-b75c-cbe2f5868c12/9428f158-f7fc-4e4a-b97b-e16df299d57c"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -7107,7 +6756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" ""
 			(at 144.78 38.1 0)
 			(effects
 				(font

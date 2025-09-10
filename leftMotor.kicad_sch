@@ -5014,7 +5014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 173.6852 39.37 0)
 			(effects
 				(font
@@ -5083,7 +5083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 			(at 269.24 76.2 0)
 			(effects
 				(font
@@ -5218,7 +5218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 131.7752 40.64 0)
 			(effects
 				(font
@@ -5353,7 +5353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 			(at 269.24 101.6 0)
 			(effects
 				(font
@@ -5420,7 +5420,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
 			(at 158.75 119.38 0)
 			(effects
 				(font
@@ -5555,7 +5555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 150.8252 40.64 0)
 			(effects
 				(font

@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "1d2de2d0-0f01-40e6-9d9c-786aebcd3ad1")
 	(paper "A5")
+	(title_block
+		(title "Miniature Sumo Robot ")
+		(date "2025-09-26")
+		(rev "A")
+		(company "Erick Zamora ")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x04"
 			(pin_names

@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "4f7e0c5a-b900-4b62-9610-adeb96378e2b")
 	(paper "A5")
+	(title_block
+		(title "Miniature Sumo Robot ")
+		(date "2025-09-26")
+		(rev "A")
+		(company "Erick Zamora ")
+	)
 	(lib_symbols
 		(symbol "Device:C_Polarized"
 			(pin_numbers
